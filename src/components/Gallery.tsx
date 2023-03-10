@@ -13,17 +13,14 @@ import eight from '../assets/8.jpg';
 import nine from '../assets/9.jpg';
 
 const Gallery = () => {
+
+  const images = [one, two, three, four, five, six, eight, nine]
+
     return (
-        <div className="gallery animate__animated animate__fadeInUp">
-        <img src={one} alt="one" />
-        <img src={two} alt="two" />
-        <img src={three} alt="three" />
-        <img src={four} alt="four" />
-        <img src={five} alt="five" />
-        <img src={six} alt="" />
-        {/* <img src={seven} alt="" /> */}
-        <img src={eight} alt="" />
-        <img src={nine} alt="" />
+      <div className="gallery animate__animated animate__fadeInUp">
+        {images.map(image => (
+          <img src={image} alt="Image" />
+        ))}
       </div>
     );
 }

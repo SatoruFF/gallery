@@ -1,0 +1,22 @@
+@import '../style/tmp.scss';
+
+.works__wrapper {
+    width: 100%;
+    @extend %centerTmp;
+    .content__space {
+        width: 100%;
+        .works__first-slide {
+            background-color: #fff0f6;
+            border-radius: 10px;
+            padding-bottom: 25px;
+            width: 90%;
+            padding: 10px;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}

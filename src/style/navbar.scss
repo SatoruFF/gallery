@@ -18,6 +18,9 @@
         @extend %mainFont;
     }
     a:hover {
-        background-color: skyblue;
+        background-color: #8c8c8c;
+        border-radius: 10px;
+        color: white;
+        border-bottom: none;
     }
 }

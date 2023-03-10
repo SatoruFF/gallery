@@ -2,6 +2,7 @@
 
 .welcome__wrapper {
     width: 100%;
+    @extend %centerTmp;
 }
 
 .firstSlide {
